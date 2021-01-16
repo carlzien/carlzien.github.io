@@ -1,10 +1,13 @@
 // Initialize Firebase
-var config = {
-    apiKey: "AIzaSyCUGTrY5OD1uBupNIHvCRxEO1NKYVlPtDM",
-    authDomain: "fusioncharts-demo.firebaseapp.com",
-    databaseURL: "https://fusioncharts-demo.firebaseio.com",
-    projectId: "fusioncharts-demo",
-    storageBucket: "fusioncharts-demo.appspot.com",
-    messagingSenderId: "728123238984"
-};
-firebase.initializeApp(config);
+var firebaseConfig = {
+    apiKey: "AIzaSyAC41MzXxfGc454yAejNKXEsxCPO-MDU14",
+    authDomain: "prototype1-2f3af.firebaseapp.com",
+    databaseURL: "https://prototype1-2f3af-default-rtdb.firebaseio.com",
+    projectId: "prototype1-2f3af",
+    storageBucket: "prototype1-2f3af.appspot.com",
+    messagingSenderId: "541074010963",
+    appId: "1:541074010963:web:540052084ec548fb99e7a6",
+    measurementId: "G-TLQS7R75CX"
+    };
+    
+firebase.initializeApp(firebaseConfig)
